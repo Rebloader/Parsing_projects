@@ -39,13 +39,13 @@ async def extract_book_data(url, session):
     html = await fetch(url, session)
     soup = BeautifulSoup(html, 'html.parser')
 
-    book_data = []
+    book_data = {}
     for book in soup.find_all('div', {'class': 'col-sm-6 product_main'}):
         title = book.find('h1').text.strip()
         price = book.find('p', {'class': 'price_color'}).text.strip()
         available_text = book.find('p', {'class': 'instock availability'}).text.strip()
         available = extract_quantity(available_text)
-        book_data.append({'title': title, 'price': price, 'available': available})
+        book_data.update({'title': title, 'price': price, 'available': available})
         print(f'{title} | {price} | {available}')
     return book_data
 

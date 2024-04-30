@@ -53,7 +53,7 @@ def extract_book_data(url):
 
 
 books_dat = scrape_books()
-with open('books_description.json', 'w+', encoding='utf-8') as outfile:
+with open('../Seminar_3_MongoDB/MongoDB/books_description.json', 'w+', encoding='utf-8') as outfile:
     json.dump(books_dat, outfile, ensure_ascii=False, indent=4)
 
 
