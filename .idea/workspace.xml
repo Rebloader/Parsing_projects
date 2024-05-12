@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="221d8711-0884-4930-943b-25bbacbf34ad" name="Changes" comment="add task for 1 Seminar">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar_2/async_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar_2/main.py" afterDir="false" />
+    <list default="true" id="221d8711-0884-4930-943b-25bbacbf34ad" name="Changes" comment="add file to xPath parser">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_3_MongoDB/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/Seminar_5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/Seminar_5/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/Seminar_5/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/Seminar_5/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/Seminar_5/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/Seminar_5/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/Seminar_5/spiders/learning_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar_5/scrapy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar_4_XPath/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar_4_XPath/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rebloader&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rebloader/Parsing_projects.git&quot;,
+    &quot;accountId&quot;: &quot;c572a413-fe93-4dd0-9905-432f1bfa0e8c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -44,7 +59,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.async_parser.executor": "Run",
+    "Python.connector.executor": "Run",
+    "Python.crud.executor": "Run",
     "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
     "Python.main.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,11 +75,22 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "clickhouse"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GeekBrains\Parsing\pythonProject\Seminar_3_MongoDB\MongoDB" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="async_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -77,6 +106,52 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seminar_2/async_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="connector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seminar_3_MongoDB/MongoDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seminar_3_MongoDB/MongoDB/connector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seminar_3_MongoDB/MongoDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seminar_3_MongoDB/MongoDB/crud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,35 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seminar_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seminar_4_XPath" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seminar_1/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seminar_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seminar_1/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seminar_4_XPath/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,10 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.connector" />
+        <item itemvalue="Python.crud" />
         <item itemvalue="Python.async_parser" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +233,14 @@
       <option name="presentableId" value="Default" />
       <updated>1712679441317</updated>
       <workItem from="1712679443757" duration="3722000" />
-      <workItem from="1713015385792" duration="9081000" />
+      <workItem from="1713015385792" duration="9630000" />
+      <workItem from="1713690953510" duration="29000" />
+      <workItem from="1713766919385" duration="4843000" />
+      <workItem from="1713772070301" duration="6115000" />
+      <workItem from="1713852568476" duration="106000" />
+      <workItem from="1714458096063" duration="8108000" />
+      <workItem from="1714481485226" duration="14000" />
+      <workItem from="1715502574349" duration="5197000" />
     </task>
     <task id="LOCAL-00001" summary="add task for 1 Seminar">
       <option name="closed" value="true" />
@@ -190,7 +250,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712683374285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add task for 2 Seminar">
+      <option name="closed" value="true" />
+      <created>1713024595857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713024595857</updated>
+    </task>
+    <task id="LOCAL-00003" summary="MongoDB crud operations">
+      <option name="closed" value="true" />
+      <created>1713777706524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713777706524</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add file to xPath parser">
+      <option name="closed" value="true" />
+      <created>1714466285839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714466285839</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,12 +282,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add task for 1 Seminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task for 1 Seminar" />
+    <MESSAGE value="add task for 2 Seminar" />
+    <MESSAGE value="MongoDB crud operations" />
+    <MESSAGE value="add file to xPath parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file to xPath parser" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProject$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1714466152243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_4_XPath" />
     <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1712682000881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_1" />
+    <SUITE FILE_PATH="coverage/pythonProject$connector.coverage" NAME="connector Coverage Results" MODIFIED="1713777339008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_3_MongoDB/MongoDB" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1712683268838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_1" />
     <SUITE FILE_PATH="coverage/pythonProject$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1713024198016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_2" />
-    <SUITE FILE_PATH="coverage/pythonProject$async_parser.coverage" NAME="async_parser Coverage Results" MODIFIED="1713022950383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_2" />
+    <SUITE FILE_PATH="coverage/pythonProject$crud.coverage" NAME="crud Coverage Results" MODIFIED="1713773694962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_3_MongoDB/MongoDB" />
+    <SUITE FILE_PATH="coverage/pythonProject$async_parser.coverage" NAME="async_parser Coverage Results" MODIFIED="1713770021150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seminar_2" />
   </component>
 </project>

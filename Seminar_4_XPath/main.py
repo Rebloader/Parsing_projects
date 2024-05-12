@@ -30,7 +30,6 @@ def page_scrapper(url):
             record['COUNTRY'] = row_data[10].strip() if len(row_data[10].strip()) == 3 else row_data[9].strip()
             record['VENUE'] = row_data[11].strip() if len(row_data[11].strip()) != 11 else row_data[10].strip()
             record['DATE'] = row_data[11].strip() if len(row_data[11].strip()) == 11 else row_data[12].strip()
-            print(record)
 
             result_list.append(record)
         return result_list
